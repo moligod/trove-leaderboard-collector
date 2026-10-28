@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.sqlite3*
+*.db
+backups/
+*.log
+.env
+exports/
+
+# Local credentials, game-generated configuration and collected data
+.env.*
+!.env.example
+*.cfg
+*.sqlite
+*.sqlite-*
+*.db-*
+*.db3
+*.csv
+*.tsv
